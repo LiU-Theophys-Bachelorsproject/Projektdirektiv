@@ -13,7 +13,7 @@ för att förstå hur materials och molekylers egenskaper kan härledas från
 kvantmekaniska effekter. För att förstå dessa egenskaper är det viktigt att 
 kunna analysera data från sina beräkningar, något som i vissa fall förenklas 
 genom visualisering och ofta helt och hållet kräver att man kan visualisera 
-sin data.Inviwo är ett kraftfullt forskningsverktyg som utvecklas av 
+sin data. Inviwo är ett kraftfullt forskningsverktyg som utvecklas av 
 Visualiseringscenter i Norrköping. Inviwo gör det möjligt att styra 
 visualisering med programmering och att konstruera användargränssnitt 
 för interaktiv visualisering.
@@ -22,6 +22,9 @@ för interaktiv visualisering.
 Projektet går ut på att skapa ett verktyg för att visualisera viktiga egenskaper 
 från elektronstrukturberäkningar. Verktyget ska bestå av APIer för att programmatiskt 
 utföra visualisering samt eventuellt ett grafiskt användargränssnittför dessa APIer.
+
+Mjukvara ifrån tidigare projektomgång finns tillgänglig för projektgruppen och får
+användas för att underlätta uppfyllandet av kraven. 
 
 ## Syfte
 Projektet syftar till att utveckla kreativiteten samt att ge färdigheter i
@@ -39,14 +42,15 @@ funktionalitet genom att använda det till att illustrera några befintliga
 beräkningsresultat.
 
 ## Krav på systemet
-- Systemet ska implementeras med python i Inviwo. 
-- Källkoden i systemet ska licensieras med GNU Affero general public license v3 
-  eller en med denna kompatibel licens, t.ex. MIT.
-- Tillhandahålla python-moduler ska vara användarvänliga och möjliggöra visualisering med kommandon på hög nivå.
-- Systemet skaeffektivt kunna hantera stora filer.
+- Systemet ska implementeras i Inviwo. 
+- Källkoden i systemet bör licensieras med BSD 2-clause "simplified" licence.
+- Kod som integreras med Inviwo ska tillgängliggöras under Inviwos utvecklaravtal.
+- Tillhandahållna python-moduler ska vara användarvänliga och möjliggöra visualisering med kommandon på hög nivå.
+- Systemet bör effektivt kunna hantera stora filer.
 - Systemet bör översätta input-filer i textformat till det binära filformatet HDF5. 
 - Systemet bör tillhandahålla ett grafiskt gränssnitt (GUI) för vanligt förekommande visualiseringsuppgifter.
-- Systemet bör utnyttja python-biblioteket httk för hantering av inläsning av datafiler och hantering av bl.a. kristallstrukturer. 
+- Installation och uppstart av systemet bör vara enkel för användaren.
+- Systemet bör utnyttja befintlig kod för hantering av inläsning av datafiler och hantering av bl.a. kristallstrukturer. 
 - Ska kunna läsa in resultat skapade med beräkningsprogrammet VASP.
 - Bör kunna läsa inresultat från något annat beräkningsprogram, t.ex. Elk.
 - Systemet ska kunna läsa indata direkt ifrån utdatafiler ifrån beräkningsprogram och visualisera detta.
@@ -60,15 +64,15 @@ beräkningsresultat.
 - Ska visualisera projicerad tillståndstäthet härrörande tillvarje separat atom i en kristalls enhets-cell.
 - Tillåta att visualisering tillhörande atomer bara visas på vissa atomer, som kan väljas dynamiskt med 
   t.ex. musklick.
-- Ska implementera visualisering av minst två av följande egenskaper:
-  - Elastiska konstanter via oscillerande atompositioner.
-  - Fermi-ytor 
-  - ELF
-  - Krafter på atomer
-  - Bandstruktur
-  - Total DOS
-  - Parkorrelationsfunktionen
-  - Illustration av partiell elektrondensitet
+- Ska implementera (alternativt utöka befintlig implememtation med) visualisering av minst två av följande egenskaper:
+  - Elastiska konstanter.
+  - Fermi-ytor.
+  - ELF.
+  - Krafter på atomer.
+  - Bandstruktur.
+  - Total DOS.
+  - Parkorrelationsfunktionen.
+  - Illustration av partiell elektrondensitet.
 
 ## Slutgodkännande
 

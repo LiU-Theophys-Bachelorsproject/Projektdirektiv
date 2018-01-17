@@ -64,7 +64,7 @@ beräkningsresultat.
 - Ska visualisera projicerad tillståndstäthet härrörande tillvarje separat atom i en kristalls enhets-cell.
 - Tillåta att visualisering tillhörande atomer bara visas på vissa atomer, som kan väljas dynamiskt med 
   t.ex. musklick.
-- Ska implementera (alternativt utöka befintlig implememtation med) visualisering av minst två av följande egenskaper:
+- Ska implementera (alternativt utöka befintlig implementation med) visualisering av minst två av följande egenskaper:
   - Elastiska konstanter.
   - Fermi-ytor.
   - ELF.

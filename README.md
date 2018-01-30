@@ -45,6 +45,7 @@ beräkningsresultat.
 - Systemet ska implementeras i Inviwo. 
 - Källkoden i systemet bör licensieras med BSD 2-clause "simplified" licence.
 - Kod som integreras med Inviwo ska tillgängliggöras under Inviwos utvecklaravtal.
+- Utveckling ska ske på så sätt att utvecklingshistoriken bevaras med hjälp av källkodshantering
 - Tillhandahållna python-moduler ska vara användarvänliga och möjliggöra visualisering med kommandon på hög nivå.
 - Systemet bör effektivt kunna hantera stora filer.
 - Systemet bör översätta input-filer i textformat till det binära filformatet HDF5. 

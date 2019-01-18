@@ -45,6 +45,7 @@ beräkningsresultat.
 - Systemet ska implementeras i Inviwo. 
 - Källkoden i systemet, användarmanualen och den tekniska dokumentationen bör licensieras med BSD 2-clause "simplified" licence.
 - Kod som integreras med Inviwo ska tillgängliggöras under Inviwos utvecklaravtal.
+- Systemet ska fungera mot en aktuell version av Inviwo.
 - Utveckling ska ske på så sätt att utvecklingshistoriken bevaras med hjälp av källkodshantering.
 - Tillhandahållna python-moduler ska vara användarvänliga och möjliggöra visualisering med kommandon på hög nivå.
 - Systemet bör effektivt kunna hantera stora filer.
@@ -74,6 +75,8 @@ beräkningsresultat.
   - Parkorrelationsfunktionen.
   - Animerade atompositioner (molekyldynamik).
   - Illustration av partiell elektrondensitet.
+  
+(Som att avsevärt utöka en befintlig visualisering av egenskaper räknas att betydligt förbättra avgörandet av initiala visualiseringsparamatrar för att ge en betydligt mer meningsfull startpunkt.)
 
 ## Slutgodkännande
 

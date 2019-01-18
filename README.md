@@ -71,9 +71,9 @@ beräkningsresultat.
   - ELF.
   - Krafter på atomer.
   - Bandstruktur.
-  - Total DOS.
+  - Total och partiell DOS, (även t.ex. i ansluning till atomerna i 3d-vyn.)
   - Parkorrelationsfunktionen.
-  - Animerade atompositioner (molekyldynamik).
+  - Animerade atompositioner (molekyldynamik) med visning av olika kvantiteter (t.ex. laddningstäthet.)
   - Illustration av partiell elektrondensitet.
   
 (Som att avsevärt utöka en befintlig visualisering av egenskaper räknas att betydligt förbättra avgörandet av initiala visualiseringsparamatrar för att ge en betydligt mer meningsfull startpunkt.)

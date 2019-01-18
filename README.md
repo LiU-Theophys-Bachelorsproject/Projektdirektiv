@@ -43,8 +43,10 @@ beräkningsresultat.
 
 ## Krav på systemet
 - Systemet ska implementeras i Inviwo. 
-- Källkoden i systemet bör licensieras med BSD 2-clause "simplified" licence.
+- Källkoden i systemet, användarmanualen och den tekniska dokumentationen bör licensieras med BSD 2-clause "simplified" licence.
 - Kod som integreras med Inviwo ska tillgängliggöras under Inviwos utvecklaravtal.
+- Systemet ska fungera mot en aktuell version av Inviwo.
+- Utveckling ska ske på så sätt att utvecklingshistoriken bevaras med hjälp av källkodshantering.
 - Tillhandahållna python-moduler ska vara användarvänliga och möjliggöra visualisering med kommandon på hög nivå.
 - Systemet bör effektivt kunna hantera stora filer.
 - Systemet bör översätta input-filer i textformat till det binära filformatet HDF5. 
@@ -60,19 +62,21 @@ beräkningsresultat.
 - Visualiseringen ska tillåta interaktion i form av rotering, skalning, etc. 
 - Användaren ska kunna reglera en brytpunkt för vilken full transparensinträder för att kunna tydliggöra 
   strukturer bättre.
-- Systemet bör tillåta dynamisk visualisering baserad på en serie av atompositioner i utdatafiler.
 - Ska visualisera projicerad tillståndstäthet härrörande tillvarje separat atom i en kristalls enhets-cell.
 - Tillåta att visualisering tillhörande atomer bara visas på vissa atomer, som kan väljas dynamiskt med 
   t.ex. musklick.
-- Ska implementera (alternativt utöka befintlig implementation med) visualisering av minst två av följande egenskaper:
+- Ska implementera eller avsevärt utöka redan befintlig implementation av visualisering av minst två av följande egenskaper:
   - Elastiska konstanter.
   - Fermi-ytor.
   - ELF.
   - Krafter på atomer.
   - Bandstruktur.
-  - Total DOS.
+  - Total och partiell DOS, (även t.ex. i ansluning till atomerna i 3d-vyn.)
   - Parkorrelationsfunktionen.
+  - Animerade atompositioner (molekyldynamik) med visning av olika kvantiteter (t.ex. laddningstäthet.)
   - Illustration av partiell elektrondensitet.
+  
+(Som att avsevärt utöka en befintlig visualisering av egenskaper räknas att betydligt förbättra avgörandet av initiala visualiseringsparamatrar för att ge en betydligt mer meningsfull startpunkt.)
 
 ## Slutgodkännande
 

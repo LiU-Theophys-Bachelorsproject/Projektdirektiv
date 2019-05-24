@@ -65,6 +65,9 @@ beräkningsresultat.
 - Tillåta att visualisering tillhörande atomer bara visas på vissa atomer, som kan väljas dynamiskt med
   t.ex. musklick.
 - Ska implementera eller avsevärt utöka redan befintlig implementation av visualisering av minst två av följande egenskaper:
+  - Rita ut bindningslinjer och polyhedra för att förtydliga bindningar mellan atomer.
+  - Med större omsorg välja en lämplig utgångspunkt i någon/några av befintliga visualiseringar.  
+  - Animerade atompositioner (molekyldynamik), även med visning av laddningstäthet som ett animerat 3D-fält.
   - Elastiska konstanter.
   - Fermi-ytor.
   - ELF.
@@ -72,7 +75,6 @@ beräkningsresultat.
   - Bandstruktur.
   - Total och partiell DOS, (även t.ex. i ansluning till atomerna i 3d-vyn.)
   - Parkorrelationsfunktionen.
-  - Animerade atompositioner (molekyldynamik) med visning av olika kvantiteter (t.ex. laddningstäthet.)
   - Illustration av partiell elektrondensitet.
 
 (Som att avsevärt utöka en befintlig visualisering av egenskaper räknas att betydligt förbättra avgörandet av initiala visualiseringsparamatrar för att ge en betydligt mer meningsfull startpunkt.)

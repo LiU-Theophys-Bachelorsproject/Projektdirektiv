@@ -44,12 +44,12 @@ beräkningsresultat.
 ## Krav på systemet
 - Systemet ska implementeras i Inviwo.
 - Källkoden i systemet, användarmanualen och den tekniska dokumentationen bör licensieras med BSD 2-clause "simplified" licence.
-- 'Processorer' för Inviwo (och ev. annan kod som integreras direkt i Inviwo) ska utveklas under Inviwos utvecklaravtal och om möjligt tillhandahållas utvecklarna av Inviwo i form av pull-requests i samband med projektets avslutande.
-- Systemet ska fungera mot den senaste versions-märka releasen av Inviwo som finns när projektet påbörjas, eller en senare version.
+- 'Processorer' för Inviwo (och ev. annan kod som integreras direkt i Inviwo) ska utveklas under Inviwos utvecklaravtal och om möjligt tillhandahållas utvecklarna av Inviwo i form av git pull-requests i samband med projektets avslutande.
+- Systemet ska fungera mot den senaste versions-märkta releasen av Inviwo som finns när projektet börjas, eller någon senare version.
 - Utveckling ska ske på så sätt att utvecklingshistoriken bevaras med hjälp av källkodshantering.
-- Testning ska ske via implementerade enhetstester av tillagd funktionalitet
+- Testning ska ske via implementerade enhetstester av tillagd funktionalitet.
 - Tillhandahållna python-moduler ska vara användarvänliga och möjliggöra visualisering med kommandon på hög nivå.
-- Systemet bör effektivt kunna hantera stora filer.
+- Systemet bör effektivt kunna hantera stora filer och arbeta med vissa visuliseringar ifrån dataset som är större än vad som rymms i datorns internminne.
 - Systemet bör översätta input-filer i textformat till det binära filformatet HDF5.
 - Systemet bör tillhandahålla ett grafiskt gränssnitt (GUI) för vanligt förekommande visualiseringsuppgifter.
 - Installation och uppstart av systemet bör vara enkel för användaren.

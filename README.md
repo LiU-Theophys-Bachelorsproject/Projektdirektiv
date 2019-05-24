@@ -77,7 +77,9 @@ beräkningsresultat.
   - Parkorrelationsfunktionen.
   - Illustration av partiell elektrondensitet.
 
-(Som att avsevärt utöka en befintlig visualisering av egenskaper räknas att betydligt förbättra avgörandet av initiala visualiseringsparamatrar för att ge en betydligt mer meningsfull startpunkt.)
+  (Som att avsevärt utöka en befintlig visualisering av egenskaper räknas att betydligt förbättra avgörandet av initiala
+  visualiseringsparamatrar för att ge en betydligt mer meningsfull startpunkt.)
+ - I en naturvetenskaplig rapport demonstrera några av de aktuella visualiseringarna och diskutera fysikaliska insikter som kan erhållas utifrån dem.
 
 ## Slutgodkännande
 

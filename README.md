@@ -44,9 +44,10 @@ beräkningsresultat.
 ## Krav på systemet
 - Systemet ska implementeras i Inviwo.
 - Källkoden i systemet, användarmanualen och den tekniska dokumentationen bör licensieras med BSD 2-clause "simplified" licence.
-- Kod som integreras med Inviwo ska tillgängliggöras under Inviwos utvecklaravtal.
+- 'Processorer' för Inviwo (och ev. annan kod som integreras direkt i Inviwo) ska utveklas under Inviwos utvecklaravtal och om möjligt tillhandahållas utvecklarna av Inviwo i form av pull-requests i samband med projektets avslutande.
 - Systemet ska fungera mot en aktuell version av Inviwo.
 - Utveckling ska ske på så sätt att utvecklingshistoriken bevaras med hjälp av källkodshantering.
+- Testning ska ske via implementerade enhetstester av tillagd funktionalitet
 - Tillhandahållna python-moduler ska vara användarvänliga och möjliggöra visualisering med kommandon på hög nivå.
 - Systemet bör effektivt kunna hantera stora filer.
 - Systemet bör översätta input-filer i textformat till det binära filformatet HDF5.
@@ -66,7 +67,6 @@ beräkningsresultat.
   t.ex. musklick.
 - Ska implementera eller avsevärt utöka redan befintlig implementation av visualisering av minst två av följande egenskaper:
   - Rita ut bindningslinjer och polyhedra för att förtydliga bindningar mellan atomer.
-  - Med större omsorg välja en lämplig utgångspunkt i någon/några av befintliga visualiseringar.  
   - Animerade atompositioner (molekyldynamik), även med visning av laddningstäthet som ett animerat 3D-fält.
   - Elastiska konstanter.
   - Fermi-ytor.

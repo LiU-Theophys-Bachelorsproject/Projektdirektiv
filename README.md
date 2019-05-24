@@ -45,7 +45,7 @@ beräkningsresultat.
 - Systemet ska implementeras i Inviwo.
 - Källkoden i systemet, användarmanualen och den tekniska dokumentationen bör licensieras med BSD 2-clause "simplified" licence.
 - 'Processorer' för Inviwo (och ev. annan kod som integreras direkt i Inviwo) ska utveklas under Inviwos utvecklaravtal och om möjligt tillhandahållas utvecklarna av Inviwo i form av pull-requests i samband med projektets avslutande.
-- Systemet ska fungera mot en aktuell version av Inviwo.
+- Systemet ska fungera mot den senaste versions-märka releasen av Inviwo som finns när projektet påbörjas, eller en senare version.
 - Utveckling ska ske på så sätt att utvecklingshistoriken bevaras med hjälp av källkodshantering.
 - Testning ska ske via implementerade enhetstester av tillagd funktionalitet
 - Tillhandahållna python-moduler ska vara användarvänliga och möjliggöra visualisering med kommandon på hög nivå.

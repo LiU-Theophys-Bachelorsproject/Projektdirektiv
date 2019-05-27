@@ -17,23 +17,23 @@ Tanken är att rapporterna i huvudsak skrivs inom ramarna av "rollspelet". D.v.s
 över att skriva, t.ex., att "Motivationen för arbetet är att vi ska lära oss arbeta i projekt inom kursen TFYA75" 
 och istället söker formuleringar för projektets motivation som är i linje med själva projektetuppgiften.
 
-## Etik och upphovsrätt för programkod, text och bilder
+## Upphovsrätt för programkod, text och bilder
 
-På grund av att ni vidareutvecklar ett redan befintligt system brukar det bli en del frågor just kring hur man ska
-hantera tidigare års bidrag, de egna tilläggen, och eventuell upphovsrätt till externa bilder (och ibland text) man
-använder i rapporter.
+På grund av att ni vidareutvecklar ett redan befintligt system kan det bli några frågor kring hur man hanterar upphovsrätt och citeringskrav till tidigare års bidrag, de egna tilläggen, och externa bilder (och ibland text) när man
+skriver rapporter.
 
 ### Etiska aspekter
 
-Vid sidan om vad som är "lagligt", vad universitetet kräver, osv. så finns en grundläggande 
-etisk princip att alltid ge en väldigt tydlig hänvisning när man använder något som skapats av någon annan.
+Vid sidan om frågor om "laglighet" och univesitetets regler så ska man följa en grundläggande 
+etisk princip om att alltid ge mycket tydliga hänvisningar när man använder något som skapats av någon annan.
 
-- Ta *aldrig* bort information om licenser eller upphovsrätt i källfiler ni jobbar med. Lägg till information om 
-  era egna bidrag. Om ni är osäkra, fråga er handledare.
+- Ta *aldrig* bort information om licenser eller upphovsrätt i dokument eller källfiler ni jobbar med. 
+  Lägg till information om era egna bidrag. Om ni är osäkra, fråga er handledare.
   
 - Hänvisningar till text, bild och andra verk skapade av andra ska alltid vara explicita. 
 
-  * Använder ni en bild ifrån en annan källa så ska det i bildtexten stå "Reproducerad ifrån Ref. X", det räcker inte med "[5]".
+  * Använder ni en bild ifrån en annan källa så ska det i bildtexten stå "Reproducerad ifrån Ref. X", 
+    det räcker inte med "[5]".
     (Det senare ska snarare tolkas som att man ritat en egen bild baserad på en metod eller data i Ref. 5).
     
   * Om ni använder en beskrivning eller härledning som nära ansluter till existerande text i en bok eller 
@@ -42,23 +42,27 @@ etisk princip att alltid ge en väldigt tydlig hänvisning när man använder n�
 
 ### Källkod 
 
-Systemet har av tidigare års projektgrupper implementerats i Python och C++ och källfilerna är licensierade med 
-en licens som kallas *BSD 2-Clause "Simplified" License*. Ni kan läsa mer om denna licens på bl.a. (Wikipedia)[https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_(%22Simplified_BSD_License%22_or_%22FreeBSD_License%22)].
+Det existerande system som finns har implementerats i Python och C++ i källfiler licensierade med 
+*BSD 2-Clause "Simplified" License*. Ni kan läsa mer om denna bl.a. på [Wikipedia](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_(%22Simplified_BSD_License%22_or_%22FreeBSD_License%22)).
 När ni arbetar vidare med dessa filer så hamnar era modifikationer under denna licens. 
-(Här ska dock påpekas att inom ramarna för kursen kan vi inte tvinga någon att göra sitt arbete
-tillgängligt under en given licens. Om någon av deltagarna finner det problematiskt att deras programkod
-blir tillgänglig under systemets licens så är det något som måste diskuteras i ett tidigt skede.)
+(Vi kan dock inte tvinga någon som inte vill att göra sitt arbete
+tillgängligt under en denna licens. Om någon deltagarne ser ett problem i att göra sitt arbete tillgänglig under denna licens så är det något som ska tas upp i ett tidigt skede av projektet.)
 
-När ni editerar filer så ska ni aldrig ta bort licensinformation, utan, inviduellt, lägga till era namn i slutet 
-av listan av namn vid 'Copyright' i toppen av filerna. Ni ska även uppdatera filen LICENSE och lägga till 
-alla era namn i projektgruppens i toppen av denna fil.
+När ni editerar filer så ska ni aldrig ta bort licensinformation. Istället ska ni när ni, inviduellt, editerar en fil lägga till era namn i slutet av listan av namn vid 'Copyright' i toppen av filerna. 
+
+I något skede i projektet uppdaterar ni även filen LICENSE och lägger till alla projektdeltagares namn i toppen av denna fil.
 
 ### Rapporter
 
 Alla rapporter som lämnas in förväntas vara helt era egna arbeten, *förutom* teknisk dokumentation och användarhandlending.
 För dessa förväntas ni uppdatera och utvidga de befintliga rapporterna till att omfatta den ökade funktionalitet
-ert arbete bidragit med. Tidigare års rapporter finns därför i källkodsrepositoryt licensierade under samma licens
-som källkoden.
+ert arbete bidragit med. Tidigare års rapporter finns därför i källkodsrepositoryt och är även de licensierade under samma licens som källkoden. Era ändringar av dessa rapporter förväntas licensieras under samma licens så att er version också kan göras tillgänglig i repositoryt.
+
+Notera hur man tidigare år gjort för att bibehålla dokumenthistoriken tillbaka till den första versionen av rapportet, och följ detta system.
+
+### Användning av externa bilder och annat upphovsrättsskyddat material 
+
+...
 
 ## Datorresurser
 

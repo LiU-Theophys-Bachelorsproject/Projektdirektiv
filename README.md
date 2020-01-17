@@ -4,7 +4,7 @@ Visualisering av elektronstruktur
 
 ## Personer
 * Beställare: Rickard Armiento
-* Handledare: Johan Jönsson
+* Handledare: Joel Davidsson
 * Expert: Peter Steneteg
 
 ## Bakgrund

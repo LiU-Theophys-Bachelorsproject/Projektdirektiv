@@ -44,11 +44,12 @@ beräkningsresultat.
 ## Krav på systemet
 - Systemet ska implementeras i Inviwo.
 - Källkoden i systemet, användarmanualen och den tekniska dokumentationen bör licensieras med BSD 2-clause "simplified" licence.
-- Kod som integreras med Inviwo ska tillgängliggöras under Inviwos utvecklaravtal.
-- Systemet ska fungera mot en aktuell version av Inviwo.
+- 'Processorer' för Inviwo (och ev. annan kod som integreras direkt i Inviwo) ska utveklas under Inviwos utvecklaravtal och om möjligt tillhandahållas utvecklarna av Inviwo i form av git pull-requests i samband med projektets avslutande.
+- Systemet ska fungera mot den senaste versions-märkta releasen av Inviwo som finns när projektet börjas, eller någon senare version.
 - Utveckling ska ske på så sätt att utvecklingshistoriken bevaras med hjälp av källkodshantering.
+- Testning ska ske via implementerade enhetstester av tillagd funktionalitet.
 - Tillhandahållna python-moduler ska vara användarvänliga och möjliggöra visualisering med kommandon på hög nivå.
-- Systemet bör effektivt kunna hantera stora filer.
+- Systemet bör effektivt kunna hantera stora filer och arbeta med vissa visuliseringar ifrån dataset som är större än vad som rymms i datorns internminne.
 - Systemet bör översätta input-filer i textformat till det binära filformatet HDF5.
 - Systemet bör tillhandahålla ett grafiskt gränssnitt (GUI) för vanligt förekommande visualiseringsuppgifter.
 - Installation och uppstart av systemet bör vara enkel för användaren.
@@ -65,6 +66,8 @@ beräkningsresultat.
 - Tillåta att visualisering tillhörande atomer bara visas på vissa atomer, som kan väljas dynamiskt med
   t.ex. musklick.
 - Ska implementera eller avsevärt utöka redan befintlig implementation av visualisering av minst två av följande egenskaper:
+  - Rita ut bindningslinjer och polyhedra för att förtydliga bindningar mellan atomer.
+  - Animerade atompositioner (molekyldynamik), även med visning av laddningstäthet som ett animerat 3D-fält.
   - Elastiska konstanter.
   - Fermi-ytor.
   - ELF.
@@ -72,10 +75,11 @@ beräkningsresultat.
   - Bandstruktur.
   - Total och partiell DOS, (även t.ex. i ansluning till atomerna i 3d-vyn.)
   - Parkorrelationsfunktionen.
-  - Animerade atompositioner (molekyldynamik) med visning av olika kvantiteter (t.ex. laddningstäthet.)
   - Illustration av partiell elektrondensitet.
 
-(Som att avsevärt utöka en befintlig visualisering av egenskaper räknas att betydligt förbättra avgörandet av initiala visualiseringsparamatrar för att ge en betydligt mer meningsfull startpunkt.)
+  (Som att avsevärt utöka en befintlig visualisering av egenskaper räknas att betydligt förbättra avgörandet av initiala
+  visualiseringsparamatrar för att ge en betydligt mer meningsfull startpunkt.)
+ - I en naturvetenskaplig rapport demonstrera några av de aktuella visualiseringarna och diskutera fysikaliska insikter som kan erhållas utifrån dem.
 
 ## Slutgodkännande
 

@@ -57,29 +57,35 @@ beräkningsresultat.
 - Ska kunna läsa in resultat skapade med beräkningsprogrammet VASP.
 - Bör kunna läsa inresultat från något annat beräkningsprogram, t.ex. Elk.
 - Systemet ska kunna läsa indata direkt ifrån utdatafiler ifrån beräkningsprogram och visualisera detta.
-- Ska visualisera kristallstruktur som atompositioner i enhetscellen.
-- Systemet ska kunna visualisera den elektrontäthet som resulterat ifrån en beräkning.
+- Ska visualisera kristallstruktur som en enhetscell med atompositioner och cellens utsträckning som en parallelepiped.
+  - Zoomnivå och 3D-projicering ska väljas så att visualiseringen ser attraktiv ut för användaren.
+- Systemet ska kunna visualisera den elektrontäthet som resulterat ifrån en beräkning tillsammans med kristallstrukturen.
 - Visualiseringen ska utnyttja Inviwos funktionalitet för volymsrendrering för partiell transparens.
 - Visualiseringen ska tillåta interaktion i form av rotering, skalning, etc.
-- Användaren ska kunna reglera en brytpunkt för vilken full transparens inträder för att kunna tydliggöra strukturer bättre.
-- Ska visualisera projicerad tillståndstäthet härrörande till varje separat atom i en kristalls enhets-cell.
-- Tillåta att visualisering tillhörande atomer bara visas på vissa atomer, som kan väljas dynamiskt med
-  t.ex. musklick.
+- I visualisering av 3D-data (t.ex. elektrontätheten) ska användaren ska kunna reglera en brytpunkt för vilken full transparens inträder för att kunna tydliggöra strukturer bättre.
 - Ska implementera eller avsevärt utöka redan befintlig implementation av visualisering av minst två av följande egenskaper:
-  - Rita ut bindningslinjer och polyhedra för att förtydliga bindningar mellan atomer.
-  - Animerade atompositioner (molekyldynamik), även med visning av laddningstäthet som ett animerat 3D-fält.
+  - Rita ut bindningslinjer och polyhedra för att förtydliga bindningar mellan atomer i visualisering av atomerna i enhetscellen.
+  - Kombinera visualisering av kristallstrukturen (atomer + enhetscell) med 3D-data (t.ex. elektrontäthet) samtidigt.
+  - Animerade atompositioner (molekyldynamik).
+      - Möjliga förbättringar: visning av animerad laddningstäthet som ett animerat 3D-fält; hantering av data som är större än vad som rymms i datorns internminne.
   - Elastiska konstanter.
-  - Fermi-ytor.
+      - T.ex. genom att visa atomer som vibrerar. 
+  - Fermi-ytor
+       - Möjliga förbättringar: rita fermiyta i hela Brillouinzonen (istället för enhetscellen).
   - ELF.
   - Krafter på atomer.
+       - T.ex. genom utritande av kraftvektorer i 3D.
   - Bandstruktur.
-  - Total och partiell DOS, (även t.ex. i ansluning till atomerna i 3d-vyn.)
+  - Total, projicerad och partiell DOS, (även t.ex. i ansluning till atomerna i 3d-vyn.)
   - Parkorrelationsfunktionen.
   - Illustration av partiell elektrondensitet.
-
-  (Som att avsevärt utöka en befintlig visualisering av egenskaper räknas att betydligt förbättra avgörandet av initiala
-  visualiseringsparamatrar för att ge en betydligt mer meningsfull startpunkt.)
- - I en naturvetenskaplig rapport demonstrera några av de aktuella visualiseringarna och diskutera fysikaliska insikter som kan erhållas utifrån dem.
+  - Interaktiv visualisering via att storheter som hör till specifika atomer kan väljas dynamiskt med
+    t.ex. musklick.  
+  - Utökningar av något av det som just nu illustreras som 2D-grafer (bandstruktur, DOS) till 3D, t.ex. genom att ta atom-projicerade kvantiteter och rita upp vid atomerna i 3D. 
+  
+  (Att betydligt förbättra avgörandet av initiala visualiseringsparamatrar för att ge en betydligt mer meningsfull startpunkt betraktas också som att avsevärt utöka en befintlig visualisering.)
+  
+ - I en naturvetenskaplig rapport demonstrera hur de nya visualiseringarna kan användas och diskutera de fysikaliska insikter som kan erhållas utifrån dem (gärna även tillsammans med redan befintlig funktionalitet i verktyget).
 
 ## Slutgodkännande
 

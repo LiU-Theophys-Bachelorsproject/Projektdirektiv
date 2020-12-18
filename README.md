@@ -77,7 +77,7 @@ beräkningsresultat.
        - T.ex. genom utritande av kraftvektorer i 3D.
   - Bandstruktur.
   - Total, projicerad och partiell DOS, (även t.ex. i ansluning till atomerna i 3d-vyn.)
-  - Parkorrelationsfunktionen.
+  - Magnetiska egenskaper hos elektrontäthet och/eller för atomerna.
   - Illustration av partiell elektrondensitet.
   - Interaktiv visualisering via att storheter som hör till specifika atomer kan väljas dynamiskt med
     t.ex. musklick.  

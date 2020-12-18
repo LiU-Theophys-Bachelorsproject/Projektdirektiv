@@ -74,7 +74,7 @@ beräkningsresultat.
   - Krafter på atomer.
   - Bandstruktur.
   - Total och partiell DOS, (även t.ex. i ansluning till atomerna i 3d-vyn.)
-  - Parkorrelationsfunktionen.
+  - Magnetiska egenskaper hos elektrontäthet och/eller för atomerna.
   - Illustration av partiell elektrondensitet.
 
   (Som att avsevärt utöka en befintlig visualisering av egenskaper räknas att betydligt förbättra avgörandet av initiala

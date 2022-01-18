@@ -66,15 +66,16 @@ beräkningsresultat.
 - Ska implementera eller avsevärt utöka redan befintlig implementation av visualisering av minst två av följande egenskaper:
   - Rita ut bindningslinjer och polyhedra för att förtydliga bindningar mellan atomer i visualisering av atomerna i enhetscellen.
   - Kombinera visualisering av kristallstrukturen (atomer + enhetscell) med 3D-data (t.ex. elektrontäthet) samtidigt.
-  - Animerade atompositioner (molekyldynamik).
-      - Möjliga förbättringar: visning av animerad laddningstäthet som ett animerat 3D-fält; hantering av data som är större än vad som rymms i datorns internminne.
+  - Animerade atompositioner (molekyldynamik). Förslag på möjliga förbättringar:
+    - Visning av animerad laddningstäthet som ett animerat 3D-fält.
+    - Visa krafter på atomer i animeringen.
+    - Animering av positionsdata som är större än vad som rymms i datorns internminne.
   - Elastiska konstanter.
-      - T.ex. genom att visa atomer som vibrerar. 
-  - Fermi-ytor
-       - Möjliga förbättringar: rita fermiyta i hela Brillouinzonen (istället för enhetscellen).
+    - Kan visualiseras t.ex. med atomer som vibrerar. 
+  - Fermi-ytor. Förslag på möjliga förbättringar:
+    - Rita fermiyta i hela Brillouinzonen (istället för enhetscellen).
   - ELF.
   - Krafter på atomer.
-       - T.ex. genom utritande av kraftvektorer i 3D.
   - Bandstruktur.
   - Total, projicerad och partiell DOS, (även t.ex. i ansluning till atomerna i 3d-vyn.)
   - Magnetiska egenskaper hos elektrontäthet och/eller för atomerna.
@@ -82,8 +83,7 @@ beräkningsresultat.
   - Interaktiv visualisering via att storheter som hör till specifika atomer kan väljas dynamiskt med
     t.ex. musklick.  
   - Utökningar av något av det som just nu illustreras som 2D-grafer (bandstruktur, DOS) till 3D, t.ex. genom att ta atom-projicerade kvantiteter och rita upp vid atomerna i 3D. 
-  
-  (Att betydligt förbättra avgörandet av initiala visualiseringsparamatrar för att ge en betydligt mer meningsfull startpunkt betraktas också som att avsevärt utöka en befintlig visualisering.)
+  - Att betydligt förbättra hur initiala paramatrar (zoom, rotation, field-of-view) avgörs för att ge en mer meningsfull startpunkt i visualisering av en enhetscell räknas också som en avsevärd utökning av befintlig visualisering.
   
  - I en naturvetenskaplig rapport demonstrera hur de nya visualiseringarna kan användas och diskutera de fysikaliska insikter som kan erhållas utifrån dem (gärna även tillsammans med redan befintlig funktionalitet i verktyget).
 
